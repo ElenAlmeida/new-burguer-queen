@@ -1,0 +1,44 @@
+.main-home {
+  width: 100vw;
+  height: 100vw;
+  background-image: url(../../assets/image/background-259-new.jpg);
+  background-size: 100vw 100vw;
+}
+
+.container-button {
+  width: 100vw;
+  height: 15vw;
+  /* background: violet; */
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 15vw;
+  grid-template-columns: 32vw 36vw 32vw;
+}
+
+.btn-pg-home {
+  background-image: url(../../assets/image/burguer.png);
+  background-size: 28vw 7vw;
+  border: none;
+  color: #3c4a57;
+  margin: 5px;
+  width: 28vw;
+  height: 7vw;
+  font-weight: 900;
+  font-size: 55px;
+  grid-row-start: 1;
+  align-self: end;
+  grid-column-start: 1;
+  justify-self: self-end;
+  letter-spacing: 5px;
+}
+
+.btn-home-second{
+  grid-column-start: 3;
+  justify-self: self-start;
+  font-size: 55px;
+  letter-spacing: 2px;
+}
+
+.btn-pg-home:focus{
+  outline: none;
+}
